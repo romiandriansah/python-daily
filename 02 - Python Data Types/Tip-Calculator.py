@@ -6,4 +6,7 @@ tip_percent = tip/100
 tip_amount = bill * tip_percent
 total_bill = bill + tip_amount
 total_split = total_bill/split
-# total_final = round()
+total_final = round(total_split, 2)
+total_final = "{:.2f}".format(total_split)
+print(f"Each person should pay: ${total_final}")
+print("Thanks You!")
