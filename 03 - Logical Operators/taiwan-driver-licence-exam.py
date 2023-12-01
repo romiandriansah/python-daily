@@ -20,3 +20,5 @@ if ask1 == "y":
 else:
     print("You can't yet to take this program")
     print("Your scooter license must at least 1 year")
+
+# i will review program later
